@@ -7,8 +7,11 @@
  */
 <html>
     <head>
+<style>
+body {
+    background-color: rgb(<?php print rand (0,255). ',' . rand(0,255) .)
+}
         <title>Aš valdau HTML!</title> 
-<body style='background-color:<?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?>'>
     </head>
     <body>
         <h1><strong>Tomas Steponėnas</strong> - HTML asas</h1>
