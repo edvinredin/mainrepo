@@ -1,17 +1,13 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 <html>
     <head>
-<style>
-        <title>Aš valdau HTML!</title> 
+        <title>Aš valdau HTML <?php print ' ir PHP!'; ?>!</title>
     </head>
     <body>
-        <h1><strong>Tomas Steponėnas</strong> - HTML asas</h1>
-        <p>Moku kurti statinį turinį.</p>
+        <h1><b>Karolis</b> - HTML<?php print ' ir PHP'; ?>asas!</h1>
+        <p>
+            Moku kurti dinaminį turinį<br>
+            Atidaryta: <?php print date('Y-m-d H-i-s'); ?>
+        </p>
     </body>
 </html>
