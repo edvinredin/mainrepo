@@ -8,9 +8,6 @@
 <html>
     <head>
 <style>
-body {
-    background-color: rgb(<?php print rand (0,255). ',' . rand(0,255) .)
-}
         <title>Aš valdau HTML!</title> 
     </head>
     <body>
