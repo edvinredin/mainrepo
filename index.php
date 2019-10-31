@@ -1,18 +1,21 @@
   <?php
-   
-  $img_src = 'https://musicglue-images-prod.global.ssl.fastly.net/cypresshill/product/skull-bandana?u=aHR0cHM6Ly9tdXNpY2dsdWUtdXNlci1hcHAtcC0yLXAuczMuYW1hem9uYXdzLmNvbS9vcmlnaW5hbHMvZTlkOGViZTAtNmFlYi0wMTM1LTEzYzAtNDY3OTQxY2RiZjY0&mode=contain&width=700&v=2' ;
-            
-           
+   $sudas_1 = (rand(1,100));
+     $sudas_2 = (rand(101,200));
+       $sudas_3 = (rand(201,300));
+         $sudas_4 = (rand(301,400));
             ?>
 
 <html>
     <head>
     </head>
     <body>
- <img src="<?php print $img_src;  ?>">
-  <img src="<?php print $img_src;  ?>">
-   <img src="<?php print $img_src;  ?>">
-    <img src="<?php print $img_src;  ?>">
+
+        <div class="body1">
+            <h1>Skolos skaiciuokle</h1>
+            <h3>Jai paemei <?php print $sudas_1;?> jievru</h3>
+             <h4>Su dviem kabanciais grazinsi <?php print $sudas_3;?> jievru</h4>
+              <h2>Su vienu kabanciu grazinsi <?php print $sudas_2;?> jievru</h2>
+        </div>
 
     </body>
 </html>
