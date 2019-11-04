@@ -1,21 +1,35 @@
   <?php
-   $sudas_1 = (rand(1,100));
-     $sudas_2 = (rand(101,200));
-       $sudas_3 = (rand(201,300));
-         $sudas_4 = (rand(301,400));
+      $grizai_velai= rand(0,1);
+              $grizai_isgeres= rand(0,1);
             ?>
-
 <html>
     <head>
     </head>
     <body>
-
-        <div class="body1">
-            <h1>Skolos skaiciuokle</h1>
-            <h3>Jai paemei <?php print $sudas_1;?> jievru</h3>
-             <h4>Su dviem kabanciais grazinsi <?php print $sudas_3;?> jievru</h4>
-              <h2>Su vienu kabanciu grazinsi <?php print $sudas_2;?> jievru</h2>
-        </div>
-
+        <h1>Buitine skaiciuokle</h1>
+        <h2>
+            <?php 
+             if ($grizai_velai==1 && $grizai_isgeres==1):
+                  print 'grizai velai ir isgeres';
+                      else:
+                  print '';
+              endif;
+                   if ($grizai_velai==0 && $grizai_isgeres==1):
+                  print 'grizai isgeres';
+                      else:
+                  print '';
+              endif;
+                   if ($grizai_velai==1 && $grizai_isgeres==0):
+                  print 'grizai velai';
+                      else:
+                  print '';
+              endif;    
+                     if ($grizai_velai==0 && $grizai_isgeres==0):
+                  print 'nieko nepadarei';
+                      else:
+                  print '';
+              endif;     
+            ?>
+        </h2>
     </body>
 </html>
