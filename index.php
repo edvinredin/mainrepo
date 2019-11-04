@@ -10,22 +10,22 @@
         <h2>
             <?php 
              if ($grizai_velai==1 && $grizai_isgeres==1):
-                  print 'grizai velai ir isgeres';
+                  print 'grizai velai ir isgeres ir miegosi ant sofos';
                       else:
                   print '';
               endif;
                    if ($grizai_velai==0 && $grizai_isgeres==1):
-                  print 'grizai isgeres';
+                  print 'grizai isgeres ir nemiegosi ant sofos';
                       else:
                   print '';
               endif;
                    if ($grizai_velai==1 && $grizai_isgeres==0):
-                  print 'grizai velai';
+                  print 'grizai velai ir nemiegosi ant sofos';
                       else:
                   print '';
               endif;    
                      if ($grizai_velai==0 && $grizai_isgeres==0):
-                  print 'nieko nepadarei';
+                  print 'nieko nepadarei ir nemiegosi ant sofos';
                       else:
                   print '';
               endif;     
